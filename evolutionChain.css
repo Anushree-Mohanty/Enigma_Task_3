@@ -232,6 +232,46 @@ button:hover {
   }
 }
 
+/* Responsive styling */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #pokemonInput {
+    width: 80%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  #fetchBtn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  #homeButton {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #homeButton button {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  #bgVideo {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+}
+
 #homeButton {
   position: fixed;
   bottom: 20px;
