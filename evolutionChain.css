@@ -225,13 +225,6 @@ button:hover {
   width: 100%;
 }
 
-@media (min-width: 769px) {
-  .input-group {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
 /* Responsive styling */
 @media (max-width: 768px) {
   .container {
